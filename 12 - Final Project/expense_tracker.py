@@ -23,11 +23,11 @@ def get_user_expense():
     expense_name = input("Enter expense name: ")
     expense_amount = float(input("Enter expense amount: "))
     expense_categories = [
-        "🍔 Food",
+        "🍟 Food",
         "🏠 Home",
         "💼 Work",
-        "🎉 Fun",
-        "✨ Misc",
+        "🎥 Cinema",
+        "🎹 Music",
     ]
 
     while True:
